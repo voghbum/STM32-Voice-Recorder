@@ -10,6 +10,22 @@ This Project main objective is creating a digital voice recorder that can record
 | 4x4 Keypad                    | Seven Segment Display 4 Digit |
 | 24LC256 EEPROM                | STM32G031K8T6                 |
 
+## Tasks
+
+### Building a Digital Voice Recorder Circuit
+
+The materials to be used for this are determined. First the required amplifier circuit for the speaker was built then microphone was added to the circuit. EEPROM has been added to the circuit so that analog data from the microphone can be recorded and playback.
+
+### Understanding the EEPROM's Working Mechanism
+
+To do this, the datasheet of the EEPROM has been examined. Looked at the pin function table and understood where the pins of the EEPROM should be connected.
+
+![alt text](https://raw.githubusercontent.com/voghbum/STM32-Voice-Recorder/main/img1.jpg)
+![alt text](https://raw.githubusercontent.com/voghbum/STM32-Voice-Recorder/main/img2.jpg)
+
+A0, A1, A2, VSS and WP are grounded. SDA and SCL are connected to PB-7 and PB6 VCC connected to 3.3 volts for EEPROM to work.
+
+
 
 ## Diagrams
 
