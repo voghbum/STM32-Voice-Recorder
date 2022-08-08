@@ -25,6 +25,19 @@ To do this, the datasheet of the EEPROM has been examined. Looked at the pin fun
 
 A0, A1, A2, VSS and WP are grounded. SDA and SCL are connected to PB-7 and PB6 VCC connected to 3.3 volts for EEPROM to work.
 
+### Defining EEPROM Address
+
+Since we connect a0, a1 and a2 in ground, the binary value of the given address is 1010000. By converting it to hexadecimal, the address value is obtained.
+
+![alt text](https://raw.githubusercontent.com/voghbum/STM32-Voice-Recorder/main/img%203.jpg)
+
+
+### Creating Write and Read Functions for EEPROM
+
+It is necessary to write an algorithm according to the 32kbyte size.
+
+![alt text](https://raw.githubusercontent.com/voghbum/STM32-Voice-Recorder/main/img%204.jpg)
+![alt text](https://raw.githubusercontent.com/voghbum/STM32-Voice-Recorder/main/img%205.jpg)
 
 
 ## Diagrams
