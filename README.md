@@ -4,6 +4,7 @@ This Project main objective is creating a digital voice recorder that can record
 ## Components Used in The Project
 
 | 220uF, 22uF, 47nF, capacitors | 100kΩ, 1kΩ, 10Ω, resistors    |
+|-------------------------------|-------------------------------|
 | 20k potentiometer             | LM386 Opamp                   |
 | Speaker                       | Max4466 Microphone            |
 | 4x4 Keypad                    | Seven Segment Display 4 Digit |
