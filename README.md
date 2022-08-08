@@ -20,8 +20,8 @@ The materials to be used for this are determined. First the required amplifier c
 
 To do this, the datasheet of the EEPROM has been examined. Looked at the pin function table and understood where the pins of the EEPROM should be connected.
 
-![alt text](https://raw.githubusercontent.com/voghbum/STM32-Voice-Recorder/main/img1.jpg)
-![alt text](https://raw.githubusercontent.com/voghbum/STM32-Voice-Recorder/main/img2.jpg)
+![alt text](https://raw.githubusercontent.com/voghbum/STM32-Voice-Recorder/main/img 1.jpg)
+![alt text](https://raw.githubusercontent.com/voghbum/STM32-Voice-Recorder/main/img 2.jpg)
 
 A0, A1, A2, VSS and WP are grounded. SDA and SCL are connected to PB-7 and PB6 VCC connected to 3.3 volts for EEPROM to work.
 
